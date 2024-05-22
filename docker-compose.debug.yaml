@@ -1,0 +1,3 @@
+services:
+  test-node-backend-postgres:
+    command: npm run start:debug

@@ -1,0 +1,8 @@
+{{- include "adp-helm-library.deployment" (list . "test-node-backend-postgres.deployment") -}}
+{{- define "test-node-backend-postgres.deployment" -}}
+spec:
+  template:
+    spec:
+      containers:
+      - {{ include "adp-helm-library.container" (list . "test-node-backend-postgres.container") }}
+{{- end -}}

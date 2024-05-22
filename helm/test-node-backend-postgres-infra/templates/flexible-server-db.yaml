@@ -1,0 +1,6 @@
+
+{{- include "adp-aso-helm-library.flexible-servers-db" (list . "test-node-backend-postgres.flexible-servers-db") -}}
+
+{{- define "test-node-backend-postgres.flexible-servers-db" }}
+{{ end -}}
+

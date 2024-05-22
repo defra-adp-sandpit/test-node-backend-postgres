@@ -1,0 +1,6 @@
+services:
+  test-node-backend-postgres:
+    command: >
+      sh -c "npm run test:watch"
+    volumes:
+      - ./.git:/home/node/.git
